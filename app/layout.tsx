@@ -29,20 +29,6 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <nav className="bg-gray-800 text-white p-4">
-        <ul className="flex space-x-4">
-          <li>
-            <a href="/" className="hover:text-gray-300">
-              Home
-            </a>
-          </li>
-          <li>
-            <Link href="/users" className="hover:text-gray-300">
-              Users
-            </Link>
-          </li>
-        </ul>
-      </nav>
         <main className="flex-grow">{children}</main>
       </body>
     </html>
